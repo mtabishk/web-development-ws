@@ -1,0 +1,23 @@
+div.btn {
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: coral;
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    transition: 0.5;
+}
+
+div.btn:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.5;
+}
+
+div.btn:active {
+    transform: translate(5px, 5px);
+    transition: 0.5;
+}
